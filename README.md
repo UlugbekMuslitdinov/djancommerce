@@ -1,6 +1,8 @@
 
 # Djancommerce
 
+[![codecov](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce/branch/main/graph/badge.svg?token=OZDG0VYMEA)](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce)
+
 The ready-to-use code for e-commerce applications based on Django framework.
 
 
