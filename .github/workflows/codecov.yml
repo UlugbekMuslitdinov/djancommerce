@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: 3.9
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install pipenv && pipenv install --system
       - name: Run tests and collect coverage
         run: |
           coverage run python manage.py test
