@@ -5,39 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a5535a1-01dc-4354-9d50-706715264585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djancommerce.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0002_auto_20210808_0625.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0003_cart_cartitem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0004_order_orderitem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0005_alter_cart_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0006_alter_cart_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0007_cartitem_prod_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/0008_auto_20210811_0649.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/slugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djancommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djancommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djancommerce/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,10 +36,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/djancommerce/settings.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="djancommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\User\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="true" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,11 +76,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640536574195</updated>
-      <workItem from="1640536579201" duration="1430000" />
+      <workItem from="1640536579201" duration="2495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
