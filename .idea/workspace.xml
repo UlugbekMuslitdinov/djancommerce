@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a5535a1-01dc-4354-9d50-706715264585" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djancommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djancommerce/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="9a5535a1-01dc-4354-9d50-706715264585" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640536574195</updated>
-      <workItem from="1640536579201" duration="2495000" />
+      <workItem from="1640536579201" duration="2841000" />
     </task>
     <servers />
   </component>
