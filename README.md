@@ -1,6 +1,8 @@
 
 # Djancommerce
 
+![Python version](https://img.shields.io/github/pipenv/locked/python-version/UlugbekMuslitdinov/djancommerce?style=for-the-badge)
+![Django version](https://img.shields.io/github/pipenv/locked/dependency-version/UlugbekMuslitdinov/djancommerce/django?color=062d1f&style=for-the-badge)
 [![codecov](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce/branch/main/graph/badge.svg?token=OZDG0VYMEA)](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce)
 [![Django CI](https://github.com/UlugbekMuslitdinov/djancommerce/actions/workflows/django.yml/badge.svg)](https://github.com/UlugbekMuslitdinov/djancommerce/actions/workflows/django.yml)
 
@@ -41,3 +43,8 @@ python manage.py runserver
 - Custom user model
   - User Login
   - User Registration
+  - User Logout
+- Static assets
+  - CSS
+  - JS
+  - Images
