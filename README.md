@@ -6,7 +6,7 @@
 The ready-to-use code for e-commerce applications based on Django framework.
 
 
-## Acknowledgements
+## Contents
 
  - [Installation](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  
@@ -23,16 +23,10 @@ To start using this project, you need to clone it or download the zip file
     ```bash
     git@github.com:UlugbekMuslitdinov/djancommerce.git
     ```
-After the cloning, install dependencies using Pip or Pipenv
+After the cloning, install dependencies using Pipenv
 * ```bash
     pipenv install pipenv && pipenv install --system
     ```
-or
-* ```
-    python3 -m venv env
-    source env/bin/activate
-    pip install requirements.txt
-  ```
 
 Migrate the database and run local server
 
@@ -40,3 +34,9 @@ Migrate the database and run local server
 python manage.py migrate
 python manage.py runserver
 ```    
+
+
+## Functionality
+- Custom user model
+  - User Login
+  - User Registration
