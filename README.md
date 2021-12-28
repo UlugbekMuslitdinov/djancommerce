@@ -2,6 +2,7 @@
 # Djancommerce
 
 [![codecov](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce/branch/main/graph/badge.svg?token=OZDG0VYMEA)](https://codecov.io/gh/UlugbekMuslitdinov/djancommerce)
+[![Django CI](https://github.com/UlugbekMuslitdinov/djancommerce/actions/workflows/django.yml/badge.svg)](https://github.com/UlugbekMuslitdinov/djancommerce/actions/workflows/django.yml)
 
 The ready-to-use code for e-commerce applications based on Django framework.
 
